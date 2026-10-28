@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
     let users = JSON.parse(localStorage.getItem("users")) || [];
     let userForm = document.getElementById("userForm");
     let userList = document.getElementById("userList");
@@ -76,4 +75,3 @@ document.addEventListener("DOMContentLoaded", function() {
         submitBtn.textContent = "Add User";
     });
     displayUsers();
-});
