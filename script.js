@@ -62,7 +62,6 @@
             return;
         }
         if (editIndex === -1) {
-            user.id = Date.now();
             users.push(user);
         } else {
             user.id = users[editIndex].id;
